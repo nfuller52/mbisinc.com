@@ -1,0 +1,15 @@
+wordpress_sites:
+  mbisinc.dev:
+    site_hosts:
+      - canonical: mbisinc.dev
+        redirects:
+          - mbisinc.dev
+    local_path: ../site
+    admin_email: admin@mbisinc.dev
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false

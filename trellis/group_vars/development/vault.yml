@@ -1,0 +1,6 @@
+vault_mysql_root_password: password
+vault_wordpress_sites:
+  mbisinc.dev:
+    admin_password: password
+    env:
+      db_password: password
