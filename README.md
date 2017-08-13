@@ -6,7 +6,7 @@ We use vagrant to provision a virtual machine that very closely represents the p
 and staging environments. Development specific WordPress settings, such as `WP_DEBUG` and
 `SAVEQUERIES` may be setup and configured in `site\config\environments\development.php`.
 
-Please review the [MBIS Theme]() repository for making theme changes.
+Please review the [MBIS Theme](https://github.com/nfuller52/wptheme-mcgrewbehavior) repository for making theme changes.
 
 ## Updating WordPress
 Although you can update WordPress via the user interface, in order to keep everyone
